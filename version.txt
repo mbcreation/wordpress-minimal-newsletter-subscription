@@ -1,7 +1,5 @@
-Wordpress Minimal Newsletter Subscription
-=========================================
-
-Just collect and export emails with a simple form.
+Minimal newsletter subscription
+-------------------------------
 
 version 0.1 :
 - Shortcode [newsletter_form] for form subscription

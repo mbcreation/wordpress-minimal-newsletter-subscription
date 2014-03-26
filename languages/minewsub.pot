@@ -1,0 +1,50 @@
+#minewsub
+
+#:class.back.php class.back.php
+msgid "Newsletter"
+msgstr ""
+
+#:class.back.php
+msgid "Subscription date"
+msgstr ""
+
+#:class.back.php class.front.php
+msgid "Email"
+msgstr ""
+
+#:class.back.php class.back.php
+msgid "Export subscribers"
+msgstr ""
+
+#:class.back.php
+msgid "You currently have %s subscribers."
+msgstr ""
+
+#:class.front.php
+msgid "Email is mandatory"
+msgstr ""
+
+#:class.front.php
+msgid "Email is not valid"
+msgstr ""
+
+#:class.front.php
+msgid "Email already registered"
+msgstr ""
+
+#:class.front.php
+msgid "Register"
+msgstr ""
+
+#:class.front.php
+msgid "You successfully have been registered."
+msgstr ""
+
+#:class.widget.php
+msgid "Minimal newsletter subscription form"
+msgstr ""
+
+#:class.widget.php
+msgid "Display a form to register to newsletter"
+msgstr ""
+
