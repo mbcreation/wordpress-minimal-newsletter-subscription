@@ -1,6 +1,12 @@
 Minimal newsletter subscription
 -------------------------------
 
+version 0.2 :
+- adding title to form widget
+- adding description to form widget
+- adding some filters
+
+
 version 0.1 :
 - Shortcode [newsletter_form] for form subscription
 - Widget for form subscription

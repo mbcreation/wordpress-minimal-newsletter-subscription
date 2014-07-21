@@ -126,18 +126,25 @@ if ( ! class_exists( 'Minimal_Newsletter_Subscription_Plugin_Front' ) ) {
 				}
 			
 						
-				$str .= '<p>';
+				$champ_email = '<p>';
 			
-					$str .= '<label for="minewsub_email">'.__('Email', 'minewsub').'<span class="required">*</span></label>';
-					$str .= '<input type="email" id="minewsub_email" name="minewsub_email" value="'.$this->email_value.'" />';
+					$champ_email .= '<label for="minewsub_email">'.__('Email', 'minewsub').'<span class="required">*</span></label>';
+					$champ_email .= '<input type="email" id="minewsub_email" name="minewsub_email" value="'.$this->email_value.'" />';
 			
-				$str .= '</p>';
+				$champ_email .= '</p>';
+				
+				$champ_email = apply_filters('minewsub_input_email_html_filter', $champ_email);
+				
+				$str.= $champ_email;
 			
-				$str .= '<p>';
-					$str .= apply_filters('minewsub_submit_filter', '<input type="submit" value="'.__('Register', 'minewsub').'">');
-				$str .= '</p>';
-			
-				 $str .= wp_nonce_field( 'minewsub' , '_wpnonce', true, false );
+				$champ_ok = '<p>';
+					$champ_ok .= apply_filters('minewsub_submit_filter', '<input type="submit" value="'.__('Register', 'minewsub').'">');
+				$champ_ok .= '</p>';
+				
+				$champ_ok = apply_filters('minewsub_input_ok_html_filter', $champ_ok);
+				
+				$str.= $champ_ok;
+				$str .= wp_nonce_field( 'minewsub' , '_wpnonce', true, false );
 			
 				$str .= '</form>';
 			

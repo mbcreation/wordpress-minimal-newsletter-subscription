@@ -48,3 +48,11 @@ msgstr ""
 msgid "Display a form to register to newsletter"
 msgstr ""
 
+#:class.widget.php
+msgid "Title:"
+msgstr ""
+
+#:class.widget.php
+msgid "Description:"
+msgstr ""
+
